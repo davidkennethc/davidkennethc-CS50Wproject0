@@ -1,6 +1,6 @@
 $fontParagraph: "Montserrat";
 $fontHeader: "Inconsolata";
-$headerFooter: #a4b4da;
+$headerFooter: #c5d3f5;
 
 @mixin paddingLeftRight {
   padding-left: 10%;
@@ -11,9 +11,16 @@ body {
     margin: 0;
   }
 
+  @media (max-width: 501px) {
+    body {
+      background-color: $headerFooter;
+      padding-right: 0%;
+      padding-left: 5%;
+    }
+  }
+
 .content {
-    padding-left: 10%;
-    padding-right: 33%;
+    @include paddingLeftRight();
     padding-top: 32px;
     text-align: justify;
     line-height: 200%;
