@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+
+.content {
+  padding-left: 10%;
+  padding-right: 33%;
+  padding-top: 32px;
+  text-align: justify;
+  line-height: 200%;
+}
+
+.content p {
+  font-family: "Montserrat";
+}
+
+.content li {
+  font-family: "Montserrat";
+}
+
+header {
+  padding-left: 10%;
+  padding-right: 33%;
+  background-color: #a4b4da;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+header h1 {
+  font-size: 42px;
+  font-family: "Inconsolata";
+}
+
+footer {
+  padding-left: 10%;
+  padding-right: 33%;
+  text-align: justify;
+  font-family: "Montserrat";
+  padding-bottom: 16px;
+  padding-top: 80px;
+}
+/*# sourceMappingURL=style.css.map */
