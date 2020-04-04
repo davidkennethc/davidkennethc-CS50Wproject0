@@ -3,13 +3,19 @@ $fontHeader: "Inconsolata";
 $headerFooter: #c5d3f5;
 
 @mixin paddingLeftRight {
-  padding-left: 10%;
-  padding-right: 33%;
+  padding-left: 5%;
+  padding-right: 20%;
 }
 
 body {
     margin: 0;
   }
+
+.sidebar {
+  padding-top: 5px;
+  @include paddingLeftRight();
+  font-family: $fontParagraph;
+}
 
   @media (max-width: 501px) {
     body {

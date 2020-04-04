@@ -2,6 +2,13 @@ body {
   margin: 0;
 }
 
+.sidebar {
+  padding-top: 5px;
+  padding-left: 5%;
+  padding-right: 20%;
+  font-family: "Montserrat";
+}
+
 @media (max-width: 501px) {
   body {
     background-color: #c5d3f5;
@@ -11,8 +18,8 @@ body {
 }
 
 .content {
-  padding-left: 10%;
-  padding-right: 33%;
+  padding-left: 5%;
+  padding-right: 20%;
   padding-top: 32px;
   text-align: justify;
   line-height: 200%;
@@ -27,8 +34,8 @@ body {
 }
 
 header {
-  padding-left: 10%;
-  padding-right: 33%;
+  padding-left: 5%;
+  padding-right: 20%;
   background-color: #c5d3f5;
   padding-bottom: 16px;
   padding-top: 16px;
@@ -40,8 +47,8 @@ header h1 {
 }
 
 footer {
-  padding-left: 10%;
-  padding-right: 33%;
+  padding-left: 5%;
+  padding-right: 20%;
   text-align: justify;
   font-family: "Montserrat";
   padding-bottom: 16px;
