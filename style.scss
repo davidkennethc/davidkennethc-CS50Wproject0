@@ -11,11 +11,6 @@ body {
     margin: 0;
   }
 
-.sidebar {
-  padding-top: 5px;
-  @include paddingLeftRight();
-  font-family: $fontParagraph;
-}
 
   @media (max-width: 501px) {
     body {

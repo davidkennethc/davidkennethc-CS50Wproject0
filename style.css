@@ -2,13 +2,6 @@ body {
   margin: 0;
 }
 
-.sidebar {
-  padding-top: 5px;
-  padding-left: 5%;
-  padding-right: 20%;
-  font-family: "Montserrat";
-}
-
 @media (max-width: 501px) {
   body {
     background-color: #c5d3f5;
