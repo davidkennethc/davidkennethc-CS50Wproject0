@@ -3,61 +3,58 @@ $fontHeader: "Inconsolata";
 $headerFooter: #c5d3f5;
 
 @mixin paddingLeftRight {
-  padding-left: 10%;
+  padding-left: 9.5%;
   padding-right: 33%;
 }
 
-body {
-    margin: 0;
-  }
-
-  @media (min-width: 499px) {
-    h1::before {
-      content: "Welcome to my Web Page!"
-    }
-  }
-  @media (max-width: 501px) {
-    body {
-      background-color: $headerFooter;
-      padding-right: 0%;
-      padding-left: 5%;
-    }
-    h1::before {
-      content: "Welcome!";
-    }
-  }
-
-.content {
-    @include paddingLeftRight();
-    padding-top: 32px;
-    text-align: justify;
-    line-height: 200%;
-
-    p {
-        font-family: $fontParagraph;
-    }
-
-    li {
-        font-family: $fontParagraph;
-    }
+.navtext {
+  font-family: $fontHeader;
 }
 
-header {
-    @include paddingLeftRight();
-    background-color: $headerFooter;
-    padding-bottom: 16px;
-    padding-top: 16px;
+body {
+  margin: 0;
+}
 
-    h1 {
-        font-size: 32px;
-        font-family: $fontHeader;
-      }
+@media (min-width: 498px) {
+  h1::before {
+    content: "CS50W Homepage";
   }
-
-  footer {
+  .content {
     @include paddingLeftRight();
-    text-align: justify;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    padding-right: 0%;
+    padding-left: 5%;
+  }
+  h1::before {
+    content: "CS50W";
+  }
+  .content {
+    padding-left: 16px;
+    padding-right: 16%;
+  }
+}
+
+.content {
+  padding-top: 32px;
+  text-align: justify;
+  line-height: 200%;
+
+  p {
     font-family: $fontParagraph;
-    padding-bottom: 16px;
-    padding-top: 80px;
   }
+
+  li {
+    font-family: $fontParagraph;
+  }
+}
+
+footer {
+  @include paddingLeftRight();
+  text-align: justify;
+  font-family: $fontParagraph;
+  padding-bottom: 16px;
+  padding-top: 80px;
+}

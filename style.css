@@ -1,27 +1,36 @@
+.navtext {
+  font-family: "Inconsolata";
+}
+
 body {
   margin: 0;
 }
 
-@media (min-width: 499px) {
+@media (min-width: 498px) {
   h1::before {
-    content: "Welcome to my Web Page!";
+    content: "CS50W Homepage";
+  }
+  .content {
+    padding-left: 9.5%;
+    padding-right: 33%;
   }
 }
 
-@media (max-width: 501px) {
+@media (max-width: 576px) {
   body {
-    background-color: #c5d3f5;
     padding-right: 0%;
     padding-left: 5%;
   }
   h1::before {
-    content: "Welcome!";
+    content: "CS50W";
+  }
+  .content {
+    padding-left: 16px;
+    padding-right: 16%;
   }
 }
 
 .content {
-  padding-left: 10%;
-  padding-right: 33%;
   padding-top: 32px;
   text-align: justify;
   line-height: 200%;
@@ -35,21 +44,8 @@ body {
   font-family: "Montserrat";
 }
 
-header {
-  padding-left: 10%;
-  padding-right: 33%;
-  background-color: #c5d3f5;
-  padding-bottom: 16px;
-  padding-top: 16px;
-}
-
-header h1 {
-  font-size: 32px;
-  font-family: "Inconsolata";
-}
-
 footer {
-  padding-left: 10%;
+  padding-left: 9.5%;
   padding-right: 33%;
   text-align: justify;
   font-family: "Montserrat";
