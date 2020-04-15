@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Webpage</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inconsolata|Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav
+      class="sticky-top navbar navbar-expand-sm navbar-light bg-light mb-3 navtext"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#"><h1></h1></a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container tabletext">
+      <h2 class="navtext">MOOCs</h2>
+      <p>
+        Click on the course title to learn more about each course.
+      </p>
+      <table class="table">
+        <thead id="tablehead">
+          <tr>
+            <th>Course</th>
+            <th>Platform</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#cs50w"
+                >CS50's Web Programming with Python and JavaScript</a
+              >
+            </td>
+            <td>EDX</td>
+            <td class="inprogress">In Progress</td>
+          </tr>
+          <tr>
+            <td><a href="#cs50">CS50's Introduction to Computer Science</a></td>
+            <td>EDX</td>
+            <td class="complete">Complete</td>
+          </tr>
+
+          <tr>
+            <td>
+              <a href="#google">Google IT Support Professional Certificate</a>
+            </td>
+            <td>Coursera</td>
+            <td class="complete">Complete</td>
+          </tr>
+          <tr>
+            <td><a href="#unix">The Unix Woekbench</a></td>
+            <td>Coursera</td>
+            <td class="complete">Complete</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="content">
+      <h4 id="cs50w">
+        <a
+          class="navtext"
+          href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript"
+          target="_blank"
+          >CS50's Web Programming with Python and JavaScript</a
+        >
+      </h4>
+      <p>
+        This course picks up where Harvard University's CS50 leaves off, diving
+        more deeply into the design and implementation of web apps with Python,
+        JavaScript, and SQL using frameworks like Flask, Django, and Bootstrap.
+        Topics include database design, scalability, security, and user
+        experience.
+      </p>
+      <h4 id="cs50">
+        <a
+          class="navtext"
+          href="https://www.edx.org/course/cs50s-introduction-to-computer-science"
+          target="_blank"
+          >CS50's Introduction to Computer Science</a
+        >
+      </h4>
+      <p>
+        An introduction to the intellectual enterprises of computer science and
+        the art of programming.
+      </p>
+      <h4 id="google">
+        <a
+          class="navtext"
+          href="https://www.coursera.org/professional-certificates/google-it-support?utm_source=gg&utm_medium=sem&campaignid=6495575193&adgroupid=82011574030&device=c&keyword=google%20it%20certificate&matchtype=b&network=g&devicemodel=&adpostion=&creativeid=381803673355&hide_mobile_promo&gclid=EAIaIQobChMIuO6khqrq6AIVEIuyCh1kRwbhEAAYASAAEgJ1jPD_BwE"
+          target="_blank"
+          >Google IT Support Professional Certificate</a
+        >
+      </h4>
+      <p>
+        This 5-course certificate, developed by Google, includes innovative
+        curriculum designed to prepare you for an entry-level role in IT
+        support. A job in IT can mean in-person or remote help desk work in a
+        small business or at a global company like Google.
+      </p>
+      <h4 id="unix">
+        <a
+          class="navtext"
+          href="https://www.coursera.org/learn/unix?utm_source=gg&utm_medium=sem&campaignid=6495575193&adgroupid=82011574030&device=c&keyword=google%20it%20professional%20certificate&matchtype=b&network=g&devicemodel=&adpostion=&creativeid=381803673352&hide_mobile_promo=&gclid=EAIaIQobChMI6ceSmajq6AIVwuWaCh3UwQR_EAAYASAAEgIyIvD_BwE"
+          target="_blank"
+          >The Unix Woekbench</a
+        >
+      </h4>
+      <p>
+        This course is intended for folks who are new to programming and new to
+        Unix-like operating systems like macOS and Linux distributions like
+        Ubuntu. Most of the technologies discussed in this course will be
+        accessed via a command line interface. Command line interfaces can seem
+        alien at first, so this course attempts to draw parallels between using
+        the command line and actions that you would normally take while using
+        your mouse and keyboard. You’ll also learn how to write little pieces of
+        software in a programming language called Bash, which allows you to
+        connect together the tools we’ll discuss.
+      </p>
+    </div>
+    <footer style="padding-top: 150px;">
+      Made with <span style="color: #e25555;">&#9829;</span> in Berlin
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
