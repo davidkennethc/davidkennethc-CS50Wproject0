@@ -15,12 +15,12 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body id="top">
     <nav
       class="sticky-top navbar navbar-expand-sm navbar-light bg-light mb-3 navtext"
     >
       <div class="container">
-        <a class="navbar-brand" href="#"><h1></h1></a>
+        <a class="navbar-brand" href="/index.html"><h1></h1></a>
         <button
           class="navbar-toggler"
           data-toggle="collapse"
@@ -31,23 +31,27 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="/index.html">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="/moocs.html">MOOCs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="/faqs.html">MOOC FAQs</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="/mountains.html">MOUNTAINS</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container tabletext">
-      <h2 class="navtext">MOOCs</h2>
+    <div class="container tabletext" id="top" style="padding-top: 32px;">
+      <p>
+        Here is an overview of some of the MOOCs I've completed and am currently
+        working on.
+      </p>
+
       <p>
         Click on the course title to learn more about each course.
       </p>
@@ -83,77 +87,99 @@
             <td class="complete">Complete</td>
           </tr>
           <tr>
-            <td><a href="#unix">The Unix Woekbench</a></td>
+            <td><a href="#unix">The Unix Workbench</a></td>
             <td>Coursera</td>
             <td class="complete">Complete</td>
           </tr>
         </tbody>
       </table>
     </div>
-    <div class="content">
-      <h4 id="cs50w">
-        <a
-          class="navtext"
-          href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript"
-          target="_blank"
-          >CS50's Web Programming with Python and JavaScript</a
-        >
-      </h4>
-      <p>
-        This course picks up where Harvard University's CS50 leaves off, diving
-        more deeply into the design and implementation of web apps with Python,
-        JavaScript, and SQL using frameworks like Flask, Django, and Bootstrap.
-        Topics include database design, scalability, security, and user
-        experience.
-      </p>
-      <h4 id="cs50">
-        <a
-          class="navtext"
-          href="https://www.edx.org/course/cs50s-introduction-to-computer-science"
-          target="_blank"
-          >CS50's Introduction to Computer Science</a
-        >
-      </h4>
-      <p>
-        An introduction to the intellectual enterprises of computer science and
-        the art of programming.
-      </p>
-      <h4 id="google">
-        <a
-          class="navtext"
-          href="https://www.coursera.org/professional-certificates/google-it-support?utm_source=gg&utm_medium=sem&campaignid=6495575193&adgroupid=82011574030&device=c&keyword=google%20it%20certificate&matchtype=b&network=g&devicemodel=&adpostion=&creativeid=381803673355&hide_mobile_promo&gclid=EAIaIQobChMIuO6khqrq6AIVEIuyCh1kRwbhEAAYASAAEgJ1jPD_BwE"
-          target="_blank"
-          >Google IT Support Professional Certificate</a
-        >
-      </h4>
-      <p>
-        This 5-course certificate, developed by Google, includes innovative
-        curriculum designed to prepare you for an entry-level role in IT
-        support. A job in IT can mean in-person or remote help desk work in a
-        small business or at a global company like Google.
-      </p>
-      <h4 id="unix">
-        <a
-          class="navtext"
-          href="https://www.coursera.org/learn/unix?utm_source=gg&utm_medium=sem&campaignid=6495575193&adgroupid=82011574030&device=c&keyword=google%20it%20professional%20certificate&matchtype=b&network=g&devicemodel=&adpostion=&creativeid=381803673352&hide_mobile_promo=&gclid=EAIaIQobChMI6ceSmajq6AIVwuWaCh3UwQR_EAAYASAAEgIyIvD_BwE"
-          target="_blank"
-          >The Unix Woekbench</a
-        >
-      </h4>
-      <p>
-        This course is intended for folks who are new to programming and new to
-        Unix-like operating systems like macOS and Linux distributions like
-        Ubuntu. Most of the technologies discussed in this course will be
-        accessed via a command line interface. Command line interfaces can seem
-        alien at first, so this course attempts to draw parallels between using
-        the command line and actions that you would normally take while using
-        your mouse and keyboard. You’ll also learn how to write little pieces of
-        software in a programming language called Bash, which allows you to
-        connect together the tools we’ll discuss.
-      </p>
+    <div class="content" id="cs50w">
+      <article id="cs50w">
+        <h3 class="navtext">
+          <a
+            class="navtext"
+            href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript"
+            target="_blank"
+            >CS50's Web Programming with Python and JavaScript</a
+          >
+        </h3>
+        <p>
+          This course picks up where Harvard University's CS50 leaves off,
+          diving more deeply into the design and implementation of web apps with
+          Python, JavaScript, and SQL using frameworks like Flask, Django, and
+          Bootstrap. Topics include database design, scalability, security, and
+          user experience.
+        </p>
+        <p style="margin-bottom: 0px;">
+          <a href="#top" id="cs50"><small>Back to top</small></a>
+        </p>
+      </article>
+      <article>
+        <h3 class="navtext">
+          <a
+            class="navtext"
+            href="https://www.edx.org/course/cs50s-introduction-to-computer-science"
+            target="_blank"
+            >CS50's Introduction to Computer Science</a
+          >
+        </h3>
+        <p>
+          An introduction to the intellectual enterprises of computer science
+          and the art of programming.
+        </p>
+        <p style="margin-bottom: 0px;">
+          <a href="#top" id="google"><small>Back to top</small></a>
+        </p>
+      </article>
+      <article id="google">
+        <h3 class="navtext">
+          <a
+            class="navtext"
+            href="https://www.coursera.org/professional-certificates/google-it-support?utm_source=gg&utm_medium=sem&campaignid=6495575193&adgroupid=82011574030&device=c&keyword=google%20it%20certificate&matchtype=b&network=g&devicemodel=&adpostion=&creativeid=381803673355&hide_mobile_promo&gclid=EAIaIQobChMIuO6khqrq6AIVEIuyCh1kRwbhEAAYASAAEgJ1jPD_BwE"
+            target="_blank"
+            >Google IT Support Professional Certificate</a
+          >
+        </h3>
+        <p>
+          This 5-course certificate, developed by Google, includes innovative
+          curriculum designed to prepare you for an entry-level role in IT
+          support. A job in IT can mean in-person or remote help desk work in a
+          small business or at a global company like Google.
+        </p>
+        <p style="margin-bottom: 0px;">
+          <a href="#top" id="unix"><small>Back to top</small></a>
+        </p>
+      </article>
+      <article id="unix">
+        <h3 class="navtext">
+          <a
+            class="navtext"
+            href="https://www.coursera.org/learn/unix?utm_source=gg&utm_medium=sem&campaignid=6495575193&adgroupid=82011574030&device=c&keyword=google%20it%20professional%20certificate&matchtype=b&network=g&devicemodel=&adpostion=&creativeid=381803673352&hide_mobile_promo=&gclid=EAIaIQobChMI6ceSmajq6AIVwuWaCh3UwQR_EAAYASAAEgIyIvD_BwE"
+            target="_blank"
+            >The Unix Workbench</a
+          >
+        </h3>
+        <p>
+          This course is intended for folks who are new to programming and new
+          to Unix-like operating systems like macOS and Linux distributions like
+          Ubuntu. Most of the technologies discussed in this course will be
+          accessed via a command line interface. Command line interfaces can
+          seem alien at first, so this course attempts to draw parallels between
+          using the command line and actions that you would normally take while
+          using your mouse and keyboard. You’ll also learn how to write little
+          pieces of software in a programming language called Bash, which allows
+          you to connect together the tools we’ll discuss.
+        </p>
+        <p style="margin-bottom: 0px;">
+          <a href="#top"><small>Back to top</small></a>
+        </p>
+      </article>
     </div>
     <footer style="padding-top: 150px;">
-      Made with <span style="color: #e25555;">&#9829;</span> in Berlin
+      Built with <span style="color: #e25555;">&#9829;</span> using
+      <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> and
+      <a href="https://sass-lang.com/" target="_blank">SASS</a>
     </footer>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
