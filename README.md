@@ -4,7 +4,7 @@ Web Programming with Python and JavaScript
 
 ## Introduction:
 
-My homepage is a space to share some info about MOOCs, including MOOCs which I have completed and a general Q&A section about MOOCs. The Q&As have been taken from https://www.mooc-list.com/ and https://www.classcentral.com/.
+My homepage project is a space to share some info about MOOCs, including MOOCs which I have completed and a general Q&A section about MOOCs. The Q&As have been taken from https://www.mooc-list.com/ and https://www.classcentral.com/.
 
 I have also included a page which includes relaxing pictures of mountain scenery.
 
