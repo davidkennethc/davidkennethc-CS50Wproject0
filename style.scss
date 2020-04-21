@@ -15,7 +15,7 @@ body {
   margin: 0;
 }
 
-@media (min-width: 498px) {
+@media (min-width: 500px) {
   h1::before {
     content: "CS50W Project 0";
   }
@@ -26,7 +26,7 @@ body {
     @include paddingLeftRight();
   }
 }
-@media (max-width: 576px) {
+@media (max-width: 499px) {
   body {
     padding-right: 0%;
     padding-left: 5%;
